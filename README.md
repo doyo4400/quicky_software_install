@@ -4,8 +4,9 @@ Pieces of scripts for quicky install of multiple software in Win10 with powershe
 
 # Tips 
 If an error is occured when run script (same too : "execution script is disabled" )
-Enable
+
+### Enable
 > set-executionpolicy unrestricted -Force
 
-Disable
+### Disable
 > Set-ExecutionPolicy RemoteSigned
