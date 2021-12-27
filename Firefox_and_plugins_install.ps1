@@ -11,7 +11,7 @@ $dl_location_folder="$dl_location"+"\test"
 $default_firefox_folder="C:\Program Files\Mozilla Firefox"
 
 New-Item $dl_location_folder -ItemType directory 
-wget -Outfile $dl_location_folder\firefox_installer.exe https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr
+wget -Outfile $dl_location_folder\firefox_installer.exe "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr"
 cd $dl_location_folder
 .\firefox_installer.exe
 
